@@ -9,6 +9,7 @@ public class Main extends Sprite {
         textField.text = "Hello, World";
         addChild(textField);
         trace("init");
+        //testing the push
     }
 }
 }
