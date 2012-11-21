@@ -9,6 +9,9 @@ package be.devine.cp3.vo
 {
 public class BookVO
 {
+    public var title:String;
+    public var themeColor:Number;
+
     public function BookVO()
     {
 

@@ -9,6 +9,9 @@ package be.devine.cp3.vo
 {
 public class ImageVO
 {
+    public var url:String;
+    public var caption:String;
+
     public function ImageVO()
     {
 
