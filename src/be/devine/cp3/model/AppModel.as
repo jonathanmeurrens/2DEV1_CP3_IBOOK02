@@ -27,6 +27,7 @@ public class AppModel extends EventDispatcher{
     //Events
     //######
     public static const CURRENT_PAGE_CHANGED:String = "CURRENT_PAGE_CHANGED";
+    public static const PAGES_BOOK_CHANGED:String ="PAGES_BOOK_CHANGED";
 
     public function AppModel() {
     }
@@ -63,6 +64,15 @@ public class AppModel extends EventDispatcher{
         return  (index > -1 && (index + 1) < _pages.length);
     }
 
+    // book or pages changed (or both been set at the beginning)
+
+    private function bookPagesChanged():void{
+        if(_pages != null && _bookVO != null)
+        {
+            dispatchEvent(new Event(PAGES_BOOK_CHANGED));
+        }
+    }
+
     //#################
     //getters & setters
     //#################
@@ -74,7 +84,10 @@ public class AppModel extends EventDispatcher{
     }
 
     public function set bookVO(value:BookVO):void {
-        _bookVO = value;
+        if (_bookVO = value)
+        {
+            _bookVO = value;
+        }
     }
 
     //Pages
@@ -84,7 +97,11 @@ public class AppModel extends EventDispatcher{
     }
 
     public function set pages(value:Vector.<PageVO>):void {
-        _pages = value;
+        if (_pages != value)
+        {
+            _pages = value;
+
+        }
     }
 
     //currentIndex
