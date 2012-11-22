@@ -12,7 +12,7 @@ public class PageVO
     public var title:String;
     public var body:String;
     public var background_image:String;
-    public var gallery:Vector.<ImageVO>;
+    public var gallery:Vector.<ImageVO>=new Vector.<ImageVO>();
     public var link:uint;
 
     public function PageVO()
