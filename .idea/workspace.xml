@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d97f4a9-1925-4a36-905a-3c565a0e3bdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/be/devine/cp3/model/AppModel.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/be/devine/cp3/model/AppModel.as" afterPath="$PROJECT_DIR$/src/be/devine/cp3/model/AppModel.as" />
     </list>
     <ignored path="2DEV1_CP3_IBOOK02.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,7 +91,7 @@
       <file leaf-file-name="AppModel.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/model/AppModel.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="2.0271966">
+            <state line="73" column="5" selection-start="1698" selection-end="1698" vertical-scroll-proportion="-0.8033473">
               <folding>
                 <element signature="e#190#221#0" expanded="true" />
               </folding>
@@ -547,7 +547,11 @@
       <created>1353529309995</created>
       <updated>1353529309995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- Thomas: AppModel with Prev &amp; Next Methods">
+      <created>1353580330387</created>
+      <updated>1353580330387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -616,7 +620,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Thomas: AppModel with Prev &amp; Next Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Thomas: AppModel Pages &amp; BookVO setters" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -633,6 +637,7 @@
     <MESSAGE value="- trace initial test" />
     <MESSAGE value="- created value objects" />
     <MESSAGE value="- Thomas: AppModel with Prev &amp; Next Methods" />
+    <MESSAGE value="- Thomas: AppModel Pages &amp; BookVO setters" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -711,7 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/model/AppModel.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="2.0271966">
+        <state line="73" column="5" selection-start="1698" selection-end="1698" vertical-scroll-proportion="-0.8033473">
           <folding>
             <element signature="e#190#221#0" expanded="true" />
           </folding>
