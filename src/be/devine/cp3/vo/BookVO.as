@@ -11,6 +11,7 @@ public class BookVO
 {
     public var title:String;
     public var themeColor:Number;
+    public var pages:Vector.<PageVO>=new Vector.<PageVO>();
 
     public function BookVO()
     {

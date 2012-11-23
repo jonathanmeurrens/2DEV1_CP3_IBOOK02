@@ -1,10 +1,3 @@
-/**
- * Created with IntelliJ IDEA.
- * User: Jonathan
- * Date: 25/09/12
- * Time: 19:37
- * To change this template use File | Settings | File Templates.
- */
 package be.devine.cp3.util.queue
 {
 import flash.events.Event;

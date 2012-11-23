@@ -10,12 +10,19 @@
         <page background="01.jpg">
             <title>A Second Page</title>
             <body>I like being the second page!</body>
+            <gallery>
+                <image url="image1.jpg" caption="my cool image"></image>
+                <image url="image2.jpg" caption="my cool image2"></image>
+            </gallery>
             <link>3</link>
         </page>
         <page background="01.jpg">
             <title>What about me?</title>
             <body>I'm some cool content</body>
             <link></link>
+            <gallery>
+                <image url="image3.jpg" caption="my cool image"></image>
+            </gallery>
         </page>
     </pages>
 </book>

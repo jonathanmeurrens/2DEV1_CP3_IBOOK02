@@ -43,7 +43,8 @@ public class Main extends MovieClip {
     private function startApplication():void
     {
         this.gotoAndStop("start");
-        var appClass:Class = getDefinitionByName("be.devine.cp3.Application") as Class; app = new appClass();
+        var appClass:Class = getDefinitionByName("be.devine.cp3.Application") as Class;
+        app = new appClass();
         addChild(app);
     }
 }
