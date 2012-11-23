@@ -76,7 +76,7 @@ public class AppModel extends EventDispatcher{
     //#################
     //getters & setters
     //#################
-
+    //blabla
     //bookVO
 
     public function get bookVO():BookVO {
