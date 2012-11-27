@@ -36,7 +36,7 @@ public class AppModel extends EventDispatcher{
     //Methods
     //#######
 
-    //previous & next page
+    //previous & next page//
 
     public function previousPage():void{
         if(hasPrevious)
