@@ -4,12 +4,17 @@
     <configurations>
       <configuration name="IBOOK02" target-platform="Desktop" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/IBOOK02">
         <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="a7c72898-ccbc-4c74-9b05-d743bfc4047c">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="4.6.0" />
         </dependencies>
         <compiler-options>
           <option name="additionalOptions" value="-frame=start,be.devine.cp3.Application" />
         </compiler-options>
-        <packaging-air-desktop package-file-name="Main" />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="Main" />
         <packaging-android />
         <packaging-ios />
       </configuration>
@@ -23,6 +28,17 @@
     </content>
     <orderEntry type="jdk" jdkName="4.6.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library type="flex">
+        <properties id="a7c72898-ccbc-4c74-9b05-d743bfc4047c" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

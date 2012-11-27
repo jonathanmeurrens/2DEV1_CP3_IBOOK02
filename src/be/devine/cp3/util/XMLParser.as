@@ -11,9 +11,9 @@ public class XMLParser
     protected var _appModel:AppModel;
     private var _queueLoader:QueueLoader;
 
-    public function XMLParser(appModel:AppModel)
+    public function XMLParser()
     {
-        this._appModel = appModel;
+        this._appModel = AppModel.getInstance();
     }
 
     public function parse(url:String):void
