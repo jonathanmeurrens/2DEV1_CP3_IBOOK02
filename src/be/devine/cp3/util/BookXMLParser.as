@@ -7,9 +7,9 @@ import be.devine.cp3.vo.PageVO;
 
 public class BookXMLParser extends XMLParser
 {
-    public function BookXMLParser(appModel:AppModel)
+    public function BookXMLParser()
     {
-        super(appModel);
+        super();
     }
 
     override protected function parseXML(book:XML):void

@@ -29,7 +29,21 @@ public class AppModel extends EventDispatcher{
     public static const CURRENT_PAGE_CHANGED:String = "CURRENT_PAGE_CHANGED";
     public static const PAGES_BOOK_CHANGED:String ="PAGES_BOOK_CHANGED";
 
-    public function AppModel() {
+    private static var instance:AppModel;
+
+    public static function getInstance():AppModel
+    {
+        if(instance == null) {
+            instance = new AppModel(new Enforcer());
+        }
+        return instance;
+    }
+
+    public function AppModel(e:Enforcer)
+    {
+        if(e == null) {
+            throw new Error("AppModel is a singleton, use getInstance() instead");
+        }
     }
 
     //#######
@@ -139,3 +153,5 @@ public class AppModel extends EventDispatcher{
     }
 }
 }
+
+internal class Enforcer{};
